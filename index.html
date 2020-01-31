@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Space Site</title>
     <link rel="shortcut icon" href="./img/Florida_Space_Instititute_Logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <link rel="stylesheet" href="./css/styles.css" type="text/css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" async defer/>
     <script src="./js/script.js" async defer></script>
 </head>
 
@@ -21,7 +22,7 @@
                 <li class="nav__head__list__item"><a href="/"><img class="nav__head__logo"
                             src="./img/Florida_Space_Instititute_Logo.png" alt="fsi-logo"></a>
                 </li>
-                <li class="nav__head__list__item"><a href="/form.php" class="list__item__text">Contact</a></li>
+                <li class="nav__head__list__item"><a href="./form.php" class="list__item__text">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -31,13 +32,12 @@
             <div class="aside__img">
             <img  src="./img/path4.png" alt="" srcset="">
             </div>
-            <caption>Proposal Author</caption>
+            <caption><span>Samira Harris</span></caption>
             <details>
                 <ul>
-                    <li>Name: Joe Shome</li>
-                    <li>Institution: University of British Columbia</li>
-                    <li>Email: efonseca@phas.ubc.ca</li>
-                    <li>Phone: 123-456-7890</li>
+                    <li> <i class="fa fa-building-o" aria-hidden="true"></i> <span> University of British Columbia</span></li>
+                    <li> <i class="fa fa-envelope-o" aria-hidden="true"></i> <span> efonseca@phas.ubc.ca</span></li>
+                    <li> <i class="fa fa-phone" aria-hidden="true"></i> <span> 123-456-7890</span></li>
                 </ul>
             </details>
         </div>
@@ -48,11 +48,11 @@
             <caption>Proposal Details</caption>
             <details>
                 <ul>
-                    <li>Proposal Type: Large</li>
-                    <li>General Category: Pulsars</li>
-                    <li>Observation Category: Galatic</li>
-                    <li>Total Time Requested: 130 Hours</li>
-                    <li>Minimum Useful Time: 30 Minutes </li>
+                    <li> Proposal Type: <br> <span>Large</span></li>
+                    <li>General Category: <br> <span>Pulsars</span></li>
+                    <li>Observation Category: <br> <span>Galatic</span></li>
+                    <li>Total Time Requested: <br> <span>130 Hours</span></li>
+                    <li>Minimum Useful Time: <br> <span>30 Minutes</span> </li>
                 </ul>
             </details>
         </div>
@@ -63,11 +63,11 @@
             <caption>Remote Observing Request</caption>
             <details >
                 <ul>
-                    <li><input type="checkbox" name="observe-request" id="travel" disabled>  <label for="observe-request">Observer will travel to AO</label>
+                    <li ><input type="checkbox" name="observe-request" id="travel" disabled>  <label class="label__aside" for="observe-request">Observer will travel to AO</label>
                         </li>
-                    <li><input type="checkbox" name="observe-request" id="remote" checked disabled>  <label for="observe-request">Remote Observing</label>
+                    <li><input type="checkbox" name="observe-request" id="remote" checked disabled>  <label class="label__aside" for="observe-request">Remote Observing</label>
                         </li>
-                    <li><input type="checkbox" name="observe-request" id="absentia" disabled>  <label for="observe-request">In Absentia (instructions to operator)</label>
+                    <li><input type="checkbox" name="observe-request" id="absentia" disabled>  <label class="label__aside" for="observe-request">In Absentia (instructions to operator)</label>
                         </li>
                 </ul>
             </details>
@@ -77,9 +77,9 @@
     
         <article>
             <div class="proposal_head">
-                <h1>Proposal Title</h1>
-                <p>Proposal Identification No. P2945</p>
-                <p>Month Day, Year</p>
+                <h1><span>Proposal Title</span></h1>
+                <p> <i class="fa fa-id-card-o" aria-hidden="true"></i> Proposal Identification No.<span>P2945</span></p>
+                <p> <i class="fa fa-calendar" aria-hidden="true"></i> <span>Month Day, Year</span></p>
             </div>
             <div class="abstract">
                 <p>
@@ -123,7 +123,7 @@
                 <li class="nav__foot__list__item"><a href="/">Home</a></li>
                 <li class="nav__foot__list__item"><a href="https://fsi.ucf.edu">FSI Website</a></li>
                 <li class="nav__foot__list__item" id="copyright">Current Year</li>
-                <li class="nav__foot__list__item"><a href="/form.php">Contact</a></li>
+                <li class="nav__foot__list__item"><a href="./form.php">Contact</a></li>
                 <li class="nav__foot__list__item"><a href="https://yjangwynter.com">My website</a></li>
             </ul>
         </nav>
