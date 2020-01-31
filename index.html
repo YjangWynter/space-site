@@ -6,26 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Space Site</title>
-    <link rel="shortcut icon" href="../img/Florida_Space_Instititute_Logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/Florida_Space_Instititute_Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
     <script src="./js/script.js" async defer></script>
 </head>
 
 <body>
+    
     <header>
         <nav class="nav__head">
             <ul class="nav__head__list">
-                <li class="nav__head__list__item"><a href="https://fsi.ucf.edu" class="list__item__text">FSI Website</a></li>
+                <li class="nav__head__list__item"><a href="https://fsi.ucf.edu" class="list__item__text">FSI Website</a>
+                </li>
                 <li class="nav__head__list__item"><a href="/"><img class="nav__head__logo"
-                        src="./img/Florida_Space_Instititute_Logo.png" alt="fsi-logo"></a>
+                            src="./img/Florida_Space_Instititute_Logo.png" alt="fsi-logo"></a>
                 </li>
                 <li class="nav__head__list__item"><a href="/form.php" class="list__item__text">Contact</a></li>
             </ul>
         </nav>
     </header>
     <aside>
-      
-        <div class="aside__item" id="bio"> <img class="aside__img" src="./img/path4.png" alt="" srcset="">
+
+        <div class="aside__item" id="bio">
+            <div class="aside__img">
+            <img  src="./img/path4.png" alt="" srcset="">
+            </div>
             <caption>Proposal Author</caption>
             <details>
                 <ul>
@@ -35,34 +40,41 @@
                     <li>Phone: 123-456-7890</li>
                 </ul>
             </details>
-            <div class="aside__item" id="details"> <img class="aside__img" src="./img/path105.png" alt="" srcset="">
-                <caption>Proposal Details</caption>
-                <details>
-                    <ul>
-                        <li>Proposal Type: Large</li>
-                        <li>General Category: Pulsars</li>
-                        <li>Observation Category: Galatic</li>
-                        <li>Total Time Requested: 130 Hours</li>
-                        <li>Minimum Useful Time: 30 Minutes </li>
-                    </ul>
-                </details>
-            </div>
-            <div class="aside__item" id="request"> <img class="aside__img" src="./img/path120.png" alt="" srcset="">
-                <caption>Remote Observing Request</caption>
-                <details>
-                    <ul>
-                        <li><label for="observe-request">Observer will travel to AO</label>
-                            <input type="checkbox" name="observe-request" id="travel" disabled></li>
-                        <li><label for="observe-request">Remote Observing</label>
-                            <input type="checkbox" name="observe-request" id="remote" checked disabled></li>
-                        <li><label for="observe-request">In Absentia (instructions to operator)</label>
-                            <input type="checkbox" name="observe-request" id="absentia" disabled></li>
-                    </ul>
-                </details>
-            </div>
+        </div>
+        <div class="aside__item" id="details">
+            <div class="aside__img">
+            <img  src="./img/path105.png" alt="" srcset="">
+        </div>
+            <caption>Proposal Details</caption>
+            <details>
+                <ul>
+                    <li>Proposal Type: Large</li>
+                    <li>General Category: Pulsars</li>
+                    <li>Observation Category: Galatic</li>
+                    <li>Total Time Requested: 130 Hours</li>
+                    <li>Minimum Useful Time: 30 Minutes </li>
+                </ul>
+            </details>
+        </div>
+        <div class="aside__item" id="request">
+            <div class="aside__img">
+            <img src="./img/path120.png" alt="" srcset="">
+        </div>
+            <caption>Remote Observing Request</caption>
+            <details >
+                <ul>
+                    <li><input type="checkbox" name="observe-request" id="travel" disabled>  <label for="observe-request">Observer will travel to AO</label>
+                        </li>
+                    <li><input type="checkbox" name="observe-request" id="remote" checked disabled>  <label for="observe-request">Remote Observing</label>
+                        </li>
+                    <li><input type="checkbox" name="observe-request" id="absentia" disabled>  <label for="observe-request">In Absentia (instructions to operator)</label>
+                        </li>
+                </ul>
+            </details>
+        </div>
         </div>
     </aside>
-    <main>
+    
         <article>
             <div class="proposal_head">
                 <h1>Proposal Title</h1>
@@ -103,13 +115,13 @@
                 </p>
             </div>
         </article>
-    </main>
+    
 
     <footer>
         <nav class="nav__foot">
             <ul class="nav__foot__list">
                 <li class="nav__foot__list__item"><a href="/">Home</a></li>
-                <li class="nav__foot__list__item"><a href="https://fsi.ucf.edu">FSI Website</a></li >
+                <li class="nav__foot__list__item"><a href="https://fsi.ucf.edu">FSI Website</a></li>
                 <li class="nav__foot__list__item" id="copyright">Current Year</li>
                 <li class="nav__foot__list__item"><a href="/form.php">Contact</a></li>
                 <li class="nav__foot__list__item"><a href="https://yjangwynter.com">My website</a></li>
