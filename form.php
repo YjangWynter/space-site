@@ -23,9 +23,12 @@
 
     $message = "A message from ".$from.": <br> ".$_POST["message"];
 
-    $headers = "From: ".$from."\r\n";
-
-    mail($to,$subject,$message,$headers);
+    $headToMe = "From: ".$from."\r\n";
+    $headToUser = "You just sent this email with your address: ".$from." to ".$to."\r\n";
+    // an email to me
+    mail($to,$subject,$message,$headerToMe);
+    //an email to the user
+    mail($from,$subject, $message,$headToUser);
     //Confirmation message for the user
     echo nl2br('Thank you '.$_POST["name"].' for your message delivered from your email: '.$_POST["email"]."\r\n\n Your message was: \r\n".$_POST["message"]."\r\n\n");
     
