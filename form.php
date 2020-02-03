@@ -26,7 +26,7 @@
     $headToMe = "From: ".$from."\r\n";
     $headToUser = "You just sent this email with your address: ".$from." to ".$to."\r\n";
     // an email to me
-    mail($to,$subject,$message,$headerToMe);
+    mail($to,$subject,$message,$headToMe);
     //an email to the user
     mail($from,$subject, $message,$headToUser);
     //Confirmation message for the user
